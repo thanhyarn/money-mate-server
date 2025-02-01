@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const settingsController = require("../App/controller/settingsController");
+const settingsController = require("../App/controller/settingController");
 
 // Tạo cấu hình người dùng
 router.post("/create", settingsController.createSettings);
